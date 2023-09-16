@@ -6,12 +6,10 @@ export const Top = () => {
         <Scontainer>
             <h2>TOPページです</h2>
         </Scontainer>
-
-
     );
 }
 
 const Scontainer = styled.div`
-text-align: center;
+    text-align: center;
 
 `;
