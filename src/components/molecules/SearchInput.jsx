@@ -1,29 +1,25 @@
 import styled from "styled-components";
-import { PrimaryButton } from "../button/PrimaryButton";
-import { SecondaryButton } from "../button/SecondaryButton";
+import { PrimaryButton } from "../atoms/button/PrimaryButton";
 import { Input } from "../input/Input";
-
 
 export const SearchInput = () => {
     return (
         <SContainer>
             <Input placeholder="検索条件を入力" />
-            <SButtonWrapper>
+            <SButtonWarpper>
                 <PrimaryButton>検索</PrimaryButton>
-                <SecondaryButton>クリア</SecondaryButton>
-            </SButtonWrapper>
+            </SButtonWarpper>
         </SContainer>
     );
-}
+};
 
 const SContainer = styled.div`
     display: flex;
     align-items: center;
-`;  
-
-const SButtonWrapper = styled.div`
-    padding-left: 8px;
 `;
 
+const SButtonWarpper = styled.div`
+    padding-left: 8px;
+`;
 
 

@@ -1,15 +1,15 @@
 import styled from "styled-components";
-import { BaseButton } from "./BaseButton";
+import { BaseButton } from "../button/BaseButton";
 
 /**
  * このように書くと、
- * import { SecondaryButton } from "../components/button/SecondaryButton";
+ * import { PrimaryButton } from "../components/button/PrimaryButton";
  * このように使える
- * <SecondaryButton>テキスト</SecondaryButton>
+ * <PrimaryButton>テキスト</PrimaryButton>
  * @param {*} props 
  * @returns 
  */
-export const SecondaryButton = (props) => {
+export const PrimaryButton = (props) => {
     const { children } = props;
     return (
         <Sbutton>
@@ -19,6 +19,6 @@ export const SecondaryButton = (props) => {
 };
 
 const Sbutton = styled(BaseButton)`
-    background-color: #11999e;
+    background-color: #40514e;
 `;
 

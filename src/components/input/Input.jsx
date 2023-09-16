@@ -13,7 +13,3 @@ const SInput = styled.input`
     border-radius: 9999px;
     outline: none;
 `;  
-
-// このように、コンポーネントを分割していくことで、
-// それぞれのコンポーネントの役割が明確になり、
-// また、再利用性も高くなります。
